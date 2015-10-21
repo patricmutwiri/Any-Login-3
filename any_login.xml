@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="3.1" type="plugin"  group="authentication">
+	<name>Authentication - Any Field Login</name>
+	<author>Patrick Mutwiri</author>
+	<creationDate>21st October 2015</creationDate>
+	<copyright>Copyright (C) 2015 GBC - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>patwiri@gmail.com</authorEmail>
+	<authorUrl>http://twitter.com/patricmutwiri</authorUrl>
+	<version>3.0</version>
+	<description>A user authentication through a field of your choice </description>
+	<files>
+		<filename plugin="any_login">any_login.php</filename>
+	</files>
+	<params>
+	<param name="field" type="text" size="20" default="username" label="Login Field" description="Field to login using" />
+	</params>
+</install>
